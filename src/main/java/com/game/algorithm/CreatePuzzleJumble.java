@@ -36,7 +36,7 @@ public class CreatePuzzleJumble {
 	public List<Jumble> createPuzzles() throws IOException
 	{
 		jmles = new ArrayList<>();
-		File file = new File("/home/chandan/CHANDAN/projects/wordgames/src/main/resources/jumble.puzzles");
+		File file = new File("/home/chandan/CHANDAN/projects/WordGames/src/main/resources/jumble.puzzles");
 		BufferedReader br = new BufferedReader(new FileReader(file));
 		String st;
 		while ((st = br.readLine()) != null)
